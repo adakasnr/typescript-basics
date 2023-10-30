@@ -10,7 +10,7 @@ By using let key word for the perticular variable,
 in further coding we can change the variable value. 
 
 resultForExams-->this is a variable, it stores some data. 
-For this variable the number type is assigned(number is one of the data type)
+For this variable the numbe r type is assigned(number is one of the data type)
 value 0 is given as initial value to variable
 (:) colon it allows to assign a data types to the variable 
 (;) semi colon indicates the end of line
