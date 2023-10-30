@@ -6,7 +6,8 @@ push the code to github
   git pull - taking code from others
   git status - it shows the newly created files or other files which are done changes
   git add . - adding all the changed files or newlly added files
-  git add file name(the file name which need to be push) - when wanted to push perticular file
+  after git add check the git status to check what are the files are adding, the added files will show in green colour
+  git add + file name(the file name which need to be push) - when wanted to push perticular file
   git commit -m "info about the changed and newly added files"- message for changed files or newly added files
   Note(for commit)-once we give (git commit -m "") we can not get back the changed or newly added files
-  git push origin master(branch_name)- after this push has completed
+  git push origin ********(branch_name) - after this push has completed
