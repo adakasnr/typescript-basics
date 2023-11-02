@@ -4,6 +4,8 @@
 let textLength: string ="learning typescript";
 console.log("textLength-", textLength.length);
 
+textLength
+
 // text.trim()
 
 let textTrim: string ="     trim means cut      ";

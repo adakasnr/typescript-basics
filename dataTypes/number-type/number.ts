@@ -110,3 +110,4 @@ to the resultForExams
  console.log("total result", resultForExams);
 
 
+telugu.
