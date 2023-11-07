@@ -4,7 +4,11 @@ var mobile = {
     display: "AMOLED",
 };
 console.log(mobile);
-var bike = {
+mobile.os = "IOS";
+console.log("afterchange", mobile);
+/*
+
+let bike = {
     colour: "red",
     seat_count: 1,
     brake_type: "disc",
@@ -14,14 +18,26 @@ var bike = {
         valve: 4,
         noOfCylnder: 3
     }
-};
-bike.engine_type.valve = 5;
+}
+
+bike.engine_type.valve = 5
+
 console.log("bike before", bike);
 console.log("bike before", bike.colour);
-bike.colour = "black"; // first way to access key 
+
+bike.colour = "black"; // first way to access key
+
+
+
 bike["seat_count"] = 2;
+
 console.log('bike["seat_count"]', bike["seat_count"]);
-var seatObjectKey = "seat_count";
+
+const seatObjectKey = "seat_count";
+
 bike[seatObjectKey] = 10;
+
 console.log('bike[seatObjectKey]', bike[seatObjectKey]);
+
 console.log("bike after", bike);
+*/ 

@@ -11,6 +11,7 @@ textLength
 let textTrim: string ="     trim means cut      ";
 console.log("textTrim-",textTrim.trim());
 
+
 // trimStart()
 
 let trimAtStarting: string ="      triming at starting of the scentence      ";
