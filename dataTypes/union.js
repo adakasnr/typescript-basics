@@ -1,3 +1,4 @@
+"use strict"
 // union is used to give 2 or more datatypes to the variable
 // it is used when there is posibility to give either 2 or more datatype value
 var password;
