@@ -1,6 +1,22 @@
-// class is used to create one or more objects
-// constructor is ised to setup object, this behaves like a methods or function
+/*
 
+ class is used to create one or more objects
+ constructor is used to setup object, this behaves like a methods or function.
+
+ inside the class we can create method that works like function.
+
+ this key word--> 
+ it is a object to access the all the keys and methods inside the class
+ 
+ <-- const mahendhra = new Plant("mahendhra","ongole",300)-->
+
+ here i am creating object using class, mahendhra(object) will have all the methods and variables of class
+
+ <-- Public,Private and protected -->
+
+ public key will allow us to use
+
+*/
 
 // class User{
 //     email:string 
@@ -29,7 +45,7 @@
 
 const outSideVariable = "qwertyuiop";    
 class Plant {
-    companyNameFromClass: string;
+   public companyNameFromClass: string;
     placeFromFromClass: string;
     empoloyMembersFromClass: number;
     constructor(companyName: string, place: string, empoloyMembers: number) {
@@ -55,6 +71,10 @@ const mahendhra = new Plant("mahendhra","ongole",300);
 
 mahendhra.claaInsideMethod("siva");
 
-// console.log(mahendhra);
+class Type extends Plant{
+    vari = super.claaInsideMethod("kj")
+}
+
+// console.log(companyNameFromClass);
 
 
