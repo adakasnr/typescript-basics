@@ -30,6 +30,11 @@ for (let initialValue: number = 1; initialValue <= 3 || 9 >= initialValue; initi
 }
 
 
+for (let milk = 1; milk <= 30; milk++){
+    
+}
+
+
 
 
 

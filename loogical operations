@@ -1,7 +1,7 @@
-NOT-!
+NOT-!           
 AND-&&
 OR-||
-== -> it checks value on both side
+== -> it checks value on both side 
 === -> it checks datatype on both sides
 
 something/something will give you quotient
