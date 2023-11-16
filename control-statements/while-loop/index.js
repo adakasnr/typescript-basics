@@ -21,14 +21,17 @@ while (studentStart <= 40) {
 }
 console.log(price);
 var count = 1;
-var count1 = 0;
-var count2 = 0;
+var uptoFive = 0;
+var afterFive = 0;
 while (count <= 10) {
-    count = count + 1;
     if (count <= 5) {
-        count = count + 1;
+        uptoFive += 1;
     }
     else {
+        afterFive += 1;
     }
+    count = count + 1;
 }
 console.log(count);
+console.log(uptoFive);
+console.log(afterFive);

@@ -16,6 +16,7 @@ console.log("index 0", car[0]);
 // Text.pop() - this method is used remove element at the end(last index)
 // text.shift() - this method is used to remove element at the starting()
 // text.unshift() - this method is used to add element at the starting(first index)
+// text.slice() - this method is will return a part of an array
 
 
 const carModels: string[] = ["SUV", "sport", "hachback"];

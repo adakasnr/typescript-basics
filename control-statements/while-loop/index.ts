@@ -27,17 +27,21 @@ while (studentStart <= 40) {
 
 console.log(price);
 
-let count =1
-while(count<=10){
-    count=count+1;
-    if(count<=5){
-        
-    }else{
-        
-    }
+let count = 1;
+let uptoFive = 0;
+let afterFive = 0;
 
+while (count <= 10) {
+    if (count <= 5) {
+        uptoFive += 1;
+    } else {
+        afterFive += 1;
+    }
+    count = count + 1;
 }
 console.log(count);
+console.log(uptoFive);
+console.log(afterFive);
 
 
 
