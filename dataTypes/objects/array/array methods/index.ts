@@ -11,7 +11,7 @@ let school: SchoolType[] = [
         count: 200
     },
     {
-        id: 1,
+        id: 1,          
         class: "7th Class",
         count: 100
     },
@@ -37,7 +37,7 @@ school.forEach((schoolClass, indexValue) => {// In foreach method first veriable
     count += indexValue;                      // second veriable mention to index value 
     // console.log("schoolClass", schoolClass)//and in foreach method no need to mention same veriable of index
     // console.log("indexValue", indexValue);
-    console.log("inside count", count);
+    console.log("inside count", count);     
 })
 console.log("outside count", count);
 

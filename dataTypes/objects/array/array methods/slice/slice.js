@@ -1,3 +1,3 @@
-// Array.prototype.concat()
+// Array.slice()
 var laptopCompanys = ["ilap", "wordpad", "thinkpad", "notepad", "reallap"];
-console.log(laptopCompanys.slice(2));
+console.log(laptopCompanys.slice(1, 3));

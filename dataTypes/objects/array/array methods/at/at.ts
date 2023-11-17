@@ -1,5 +1,5 @@
 
-// Array.slice()
+// Array.at()
 
 type laptopCompanys ={
     Apple: string
@@ -10,4 +10,8 @@ type laptopCompanys ={
 }
 const laptopCompanys = ["ilap","wordpad","thinkpad","notepad","reallap"];
 
-console.log(laptopCompanys.slice(1,3));
+let Output = laptopCompanys[4]
+console.log(Output);
+
+console.log(laptopCompanys.at(3));
+

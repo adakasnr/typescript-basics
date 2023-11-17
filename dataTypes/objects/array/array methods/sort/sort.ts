@@ -9,5 +9,8 @@ type laptopCompanys ={
     realme:string
 }
 const laptopCompanys = ["ilap","wordpad","thinkpad","notepad","reallap"];
+const assencding=laptopCompanys.sort()
+console.log(assencding);
+console.log(laptopCompanys.sort());
 
-console.log(laptopCompanys.slice(1,3));
+
