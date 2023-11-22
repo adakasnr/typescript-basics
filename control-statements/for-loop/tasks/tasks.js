@@ -38,3 +38,7 @@ for (var print_1 = 0; print_1 <= 30; print_1++) {
 // if (print=3) {
 //     console.log("fizz");
 // }
+var sivaNagaraju = ["foddie", "short", "HardWorker"];
+sivaNagaraju.forEach(function (qwertyuiop) {
+    console.log(sivaNagaraju);
+});

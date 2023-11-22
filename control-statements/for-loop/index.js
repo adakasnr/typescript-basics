@@ -15,6 +15,7 @@ var number = 10;
 // console.log(result);
 for (var initialValue = 1; initialValue <= 3 || 9 >= initialValue; initialValue++) {
     console.log(initialValue);
-    if (initialValue == 9)
-        initialValue = 1;
+}
+for (var milk = 1; milk <= 30; milk++) {
+    console.log(milk);
 }

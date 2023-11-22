@@ -44,5 +44,6 @@ for (let print = 0; print <= 30; print++) {
 let sivaNagaraju = ["foddie", "short", "HardWorker"];
 
 sivaNagaraju.forEach((qwertyuiop) => {
-
+    console.log(sivaNagaraju);
 })
+
