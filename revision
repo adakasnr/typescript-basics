@@ -1,0 +1,97 @@
+/*
+typescript is nothing but javascript, in typescript we mention datatype to the variables
+
+to declare veriables we will be using key words 
+types of keys
+const- we can not re-assign new value to the variable 
+let- we can assigin new values
+var
+
+comments- if we are writing ant code means we have to mention purposse of that code 
+if it is single line we can use //(double slash)
+if it is double line use /* text */
+
+/*
+decliring a variable 
+let myNumber
+assiging a value
+myNumber= 22
+
+let myNumber = 22
+
+datatypes:
+1.number 
+2.string 
+3.boolean
+4.undefined
+5.null
+6.object
+
+after decliring variable we need to mention the datatype by using colon after variable
+let myNumber:number = 22
+
+1.Number
+         number can be a normal number or intiger or decimal
+  by using some methods we can check the number like., is it intiger or not a number or infinite
+
+  Number Methods
+    Number.isFinite() - to check the number is having infinite value or not
+    Number.isInteger()- to check the number is integer or not
+    Number.isNaN()- to check the number is a number or not
+    Number.isSafeInteger()-to check number is safe integer or not
+    Number.parseFloat()-
+    Number.parseInt()
+    Number.prototype.toExponential()
+    Number.prototype.toFixed()
+    Number.prototype.toLocaleString()
+    Number.prototype.toPrecision()
+    Number.prototype.toString()
+    Number.prototype.valueOf()
+
+2.String
+        string is a text, that has to be mentioned in b/w double quotes("text") or 
+        single quotes('text') or backticks(`text`) 
+    by using string methods we alter the string like ., trim, replace, uppercase
+  String Methods
+    text.length
+    text.trim()
+    trimStart()
+    trimEnd()
+    text.slice()
+    text.replace()
+    text.ReplaceAll
+    text.toUpperCase
+    text.toLowerCase 
+    text.concat
+    text.charAt
+
+
+3.boolean
+         it tells a value is true or false
+
+4.Null 
+      Null means nothing
+
+5.undefined
+      varible value is undefined
+6.Object
+    by using object we create an object with some properties(keys)
+
+    Syntax of an Object
+    let Bike={
+        Name:
+        CC:
+    }
+
+    if we need to acces key from the object syntax (object.key) 
+    ex: Bike.key()
+    To change key value (Object.key=new value)
+    To to add new key()
+
+    Object Methods- by using object methods we can do changes to the object
+    
+*/
+
+
+
+Object={}

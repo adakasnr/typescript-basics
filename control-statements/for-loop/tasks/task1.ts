@@ -34,8 +34,6 @@ for (let monthInitial = 0; monthInitial <= 30; monthInitial++) {
         monthName_year: `${allMonths[monthInitial]}_2023`
     }
     months.push(monthInfo);
-    
-    
 }
 console.log(months);
 

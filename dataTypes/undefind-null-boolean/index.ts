@@ -8,6 +8,9 @@ const nullVariable: null = null;
 
 const undefind: undefined = undefined;
 
+
+
+
 console.log("boolean", boolean);
 console.log("booleanFalse", booleanFalse);
 console.log("nullVariable", nullVariable);
