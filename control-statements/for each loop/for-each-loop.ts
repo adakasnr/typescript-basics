@@ -1,3 +1,6 @@
+// for each - it calls a function for each element in an array 
+
+
 type ConfigurationType = {
     company: string
     dispplaySize?: number

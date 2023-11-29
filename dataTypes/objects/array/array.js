@@ -5,7 +5,7 @@ let text: []
 */
 var car = [{ seatCount: 12, ventilaters_seats: 2 }, "stering", 1, ["piston", { storks: 4 }]];
 console.log("index 2", car[2]); // to check the variable with the help of index(object[index no])
-console.log("index 1", car[1]);
+console.log("index 1", car[1]);    
 console.log("index 3", car[3]);
 console.log("index 0", car[0]);
 // methods

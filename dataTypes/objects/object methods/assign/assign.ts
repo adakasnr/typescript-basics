@@ -48,3 +48,4 @@ console.log(fullStack);
 fullStack = Object.assign(frontend, backend, { framewroks: "reactJS" }) 
 console.log("after adding object in method directly ",fullStack);
 
+console.log(1.1+2.4)

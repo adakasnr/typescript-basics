@@ -1,7 +1,7 @@
-type bikeType={
-    model:string
-    cc:number
-    brand:string
+type bikeType = {
+    model: string
+    cc: number
+    brand: string
 }
 
 let bikeForMap: bikeType[] = [
@@ -39,12 +39,13 @@ let bikeForFilter: bikeType[] = [
         brand: "honda"
     }
 ];
-const mapDataStoreFroFikter = bikeForFilter.map((bikeInfo: bikeType, index: number) => {
-    if (bikeInfo.cc < 10) {
-        return bikeInfo.cc;
-    }
-}).filter((item, index) => item != undefined);
+const mapDataStoreFroFikter = bikeForFilter.map(item => ccvalue(item)).filter((item, index) => item != undefined);
 // fliter method is based on condtion to given new array
 console.log("mapDataStoreFroFikter", mapDataStoreFroFikter);
 
 
+const ccvalue = function (value) {
+    if (value.cc < 10) {
+        return value.cc;
+    }
+}

@@ -1,4 +1,5 @@
 /*
+ package - consits number of classes 
 
  class is used to create one or more objects
  constructor is used to setup object, this behaves like a methods or function.

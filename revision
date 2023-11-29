@@ -5,7 +5,8 @@ to declare veriables we will be using key words
 types of keys
 const- we can not re-assign new value to the variable 
 let- we can assigin new values
-var
+var- global scope variable()
+ const and let are used to create block scope variables 
 
 comments- if we are writing ant code means we have to mention purposse of that code 
 if it is single line we can use //(double slash)
@@ -83,12 +84,113 @@ let myNumber:number = 22
         CC:
     }
 
-    if we need to acces key from the object syntax (object.key) 
+    if we need to acces key from the object-syntax (object.key) 
     ex: Bike.key()
     To change key value (Object.key=new value)
     To to add new key()
 
-    Object Methods- by using object methods we can do changes to the object
+    logical operations
+    == it checks the value on both sides
+    === it checks the value and datatype on both sides
+    &&(AND) it checks both conditions, if both are correct, then only it will consider that
+    ||(OR) it checks any of the conditon, if any one one the condition get passed then it will consider
+    !(NOT) it makes the value opposite, if the value is true it makes false(!true=false)(!false=true)
+
+    Object Methods- by using object methods we can do changes in object
+    assign- it combines to or more objects together
+    entries - not understand 
+    hasown- it checks weather a key belogs to that object or not
+    is- to check the values are same or not of same key in which are in different objects 
+    keys- it forms a new array with all the keys in the object  
+    seal- it seals the object to make any changes to the keys(not values)
+    values- it forms a new array with all the values of the object 
+
+to object we use forin loop only 
+
+    readonly and optional
+    readonly- it will not allow us to change the values of the key 
+    optional- if there is a possibility to add or delete that key in future, we have to mention that as optional(?)
+    
+    tupple- to write datatypes to the arrays all in one array  
+
+
+    functions- it is used to create a logic 
+    with the help of that logic we can do same task multple times, we need to call that funtion only
+     syntax   
+       function nameOfTheFuntion(parameters){
+            body Of The Function
+       } 
+       console.log(nameOfTheFuntion)
+     parameters- values
+     body of the function- logic will be wrriten
+
+     wherever the same logic is required, we just need use the function name only(function calling) 
+
+     function nameOfTheFuntion(parameter1,parameter2){
+            body Of The Function
+       } 
+
+    nameOfTheFuntion(2,6) ->(2,6 are arguments)
+
+    arguments- genrally we give values in the parameters place, if we need do same function with different 
+               values, we can pass arguments with funtion name
+
+    console.log(nameOfTheFuntion)
+
+    funtion with return key words
+      genrally when we call function it will give the logic but if we use return key word, then  
+      return key word will directly return the value of the funtion, when we call the funtion name 
+
+    if we have not passed arguments as per the no of parameters it will give undefined, in this case  
+    we can also give default values in parameters. 
+    types of funtions 
+    expression function-
+    arrow funtion - have default return
+                    if it is single line code then there will be a default return 
+    named arrow funtion-
+    union- to give two or more datatypes to the parameter
+
+    classes-collection of objects
+    construtor is used to setup object, this behaves as methods or function
+    acces specifies(public, private, protected)
+
+    public - it allows us to use the variable throught the class and outside classs also
+    private - we can not acesses the variable outside the object
+    protected - we use the variable in class only
+
+    array- set of elements
+    array methods 
+    at 
+    concat- combines two arrays
+    map
+    slice- we can slice the array based on the requirment
+    sort - we arrange the array on alphabates wise or assecnding order
+
+    shallow and deep copy
+    primitive datatypes(number,string and boolean)
+    in primitive datatype, if we change value, it will get changed at that place only 
+
+    non primitive datatypes(objects, arrays and functions)
+    in non primitive datatype, if we do changes in object or function or array it will reflect the entire
+    object or function or array
+
+    shallow copy- if we shallow copy, there will be no changes in primitive datatype but there will be changes 
+                  in non primtive datatype(it refelects changes made to the new/copied object in new original object)
+    deep clone copy- it creates new array or object or function, there will be no chnages in the original object
+    
+
+    loops
+    these are helps us to run the same code over and over again, eachtime with different code  
+
+    for loop- used to execute a block of code in number of times
+    for each - it calls a function for each element in an array 
+    if
+    ternary-
+    switch
+    while loop- it loops code until specified condition is true
+
+
+
     
 */
 

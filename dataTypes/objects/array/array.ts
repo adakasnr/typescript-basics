@@ -21,6 +21,12 @@ console.log("index 0", car[0]);
 
 const carModels: string[] = ["SUV", "sport", "hachback"];
 
+
+
+
+
+
+
 // push()
 carModels.push("seadan");
 console.log("push-",carModels);
